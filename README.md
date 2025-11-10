@@ -42,12 +42,7 @@ EDA was conducted to understand:
 - Player performance consistency  
 - Comparative analysis of capped players across roles  
 
-📂 **EDA Charts stored in:** `Python_EDA/EDA_Charts/`
 
-Example visualization snippet:
-```python
-sns.barplot(x='Player Name', y='Strike_Rate', data=top_batters)
-plt.title('Top Batters by Strike Rate')
 💡 Key Insights
 🏆 Top Performers:
 
@@ -88,3 +83,88 @@ An interactive Power BI dashboard visualizes IPL data with:
 🏟️ Venue-based winning trends
 
 📂 Dashboard Location: PowerBI_Dashboard/IPL_Analysis.pbix
+
+| Role              | Players                                                              |
+| ----------------- | -------------------------------------------------------------------- |
+| **Batters**       | KL Rahul, Virat Kohli, David Warner                                  |
+| **All-Rounders**  | Andre Russell, Sunil Narine, Hardik Pandya                           |
+| **Bowlers**       | Jasprit Bumrah, Kagiso Rabada, Yuzvendra Chahal, Nathan Coulter-Nile |
+| **Wicket Keeper** | MS Dhoni                                                             |
+
+IPL_Data_Analytics/
+│
+├── README.md
+├── IPLData.csv
+├── Python_EDA/
+│   ├── EDA_Code.ipynb
+│   └── EDA_Charts/
+│       ├── top_batters.png
+│       ├── top_bowlers.png
+│       └── top_allrounders.png
+├── PowerBI_Dashboard/
+│   └── IPL_Analysis.pbix
+└── FINAL_REPORT/
+    └── FINAL REPORT- IPL DATA ANALYTICS.pdf
+⚙️ How to Run
+🔧 Prerequisites
+
+Python 3.8+
+
+Power BI Desktop
+
+Jupyter Notebook or VS Code
+
+Install dependencies:
+
+pip install pandas numpy matplotlib seaborn beautifulsoup4 selenium
+
+▶️ Steps
+
+Clone the repository
+
+git clone https://github.com/<your-username>/IPL_Data_Analytics.git
+cd IPL_Data_Analytics
+
+
+Run the Python EDA script
+
+jupyter notebook Python_EDA/EDA_Code.ipynb
+
+
+Open Power BI Dashboard
+
+PowerBI_Dashboard/IPL_Analysis.pbix
+
+✅ Results
+
+Automated IPL data extraction using web scraping
+
+Clean and structured datasets using Pandas
+
+Insightful EDA and visualizations
+
+Interactive Power BI dashboard with actionable cricket insights
+
+🚀 Future Scope
+
+Integrate live IPL APIs for real-time updates
+
+Develop predictive models for player and match performance
+
+Publish dashboards via Power BI Cloud Service
+
+👩‍💻 Author
+
+Monalika Ghosh
+M.Sc. Data Analytics | SRM Institute of Science and Technology
+📧 ghoshmonalika290@gmail.com
+
+📚 References
+
+Python Documentation
+
+Pandas Library
+
+Power BI
+
+ESPN Cricinfo (Data Source)
